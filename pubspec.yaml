@@ -1,0 +1,224 @@
+name: mrigrakksha
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0
+  
+  intl: ^0.17.0
+  neopop: ^1.0.2
+  pie_chart: ^5.0.0
+  splashscreen: ^1.3.5
+  syncfusion_flutter_charts: ^19.1.56
+  intro_slider: ^2.2.9
+  animated_splash_screen: ^1.3.0
+  point_in_polygon: ^1.0.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # fonts:
+  #   - family: Pacifico
+  #     fonts:
+  #       - asset: fonts/Pacifico-Regular.ttf
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    
+    - assets/gen.png
+    - assets/food/1.jpg
+    - assets/food/2.jpg
+    - assets/food/3.jpg
+    - assets/food/4.jpg
+    - assets/
+    - assets/pra.png
+    - assets/food.png
+    - assets/quiz.png
+    - assets/winter.png
+    - assets/summer.png
+    - assets/re.png
+    - assets/ad.png
+    - assets/he.png
+    - assets/own.png
+    - assets/dog1.jpg
+    - assets/images.jpeg
+    - assets/dogo.jpg
+    - assets/profile.jpg
+    - assets/dog2.jpeg
+    - assets/prakrithi1.jpg
+    - assets/GeneralCare/
+    - assets/seasons/
+    - assets/food_recommendations/
+    - assets/Homepage/
+    - assets/re.png
+    - assets/Helpline/
+    - assets/logo.png
+    - assets/seasons/petparent/1.jpg
+    - assets/seasons/petparent/2.jpg
+    - assets/seasons/petparent/3.jpg
+    - assets/seasons/petparent/4.jpg
+    - assets/seasons/petparent/5.jpg
+    - assets/seasons/petparent/6.jpg
+    - assets/seasons/petparent/7.jpg
+    - assets/seasons/petparent/8.jpg
+    - assets/seasons/petparent/9.jpg
+    - assets/seasons/petparent/11.png
+    - assets/seasons/skincare/1.jpg
+    - assets/seasons/skincare/2.jpg
+    - assets/seasons/skincare/3.jpg
+    - assets/seasons/skincare/4.jpg
+    - assets/seasons/skincare/5.jpg
+    - assets/seasons/skincare/6.jpg
+    - assets/seasons/skincare/7.jpg
+    - assets/seasons/skincare/8.jpg
+    - assets/seasons/skincare/9.jpg
+    - assets/seasons/skincare/10.jpg
+    - assets/seasons/skincare/11.jpg
+    - assets/seasons/skincare/12.jpg
+    - assets/seasons/skincare/13.jpg
+    - assets/seasons/skincare/14.jpg
+    - assets/seasons/skincare/15.jpg
+    - assets/seasons/skincare/16.jpg
+    - assets/seasons/skincare/17.jpg
+    - assets/seasons/skincare/18.jpg
+    - assets/seasons/skincare/19.jpg
+    
+    - assets/seasons/grooming/1.jpg
+    - assets/seasons/grooming/2.jpg
+    - assets/seasons/grooming/3.jpg
+    - assets/seasons/grooming/4.jpg
+    - assets/seasons/grooming/5.jpg
+    - assets/seasons/grooming/6.jpg
+    - assets/seasons/grooming/6.jpg
+    - assets/seasons/illness/1.jpg
+    - assets/seasons/illness/2.jpg
+    - assets/seasons/illness/3.jpg
+    - assets/seasons/illness/4.jpg
+    - assets/seasons/illness/5.jpg
+    - assets/seasons/illness/6.jpg
+    - assets/seasons/monsoon/1.jpg
+    - assets/seasons/monsoon/2.jpg
+    - assets/seasons/monsoon/3.jpg
+    - assets/seasons/monsoon/4.jpg
+    - assets/seasons/monsoon/5.jpg
+    - assets/seasons/monsoon/6.jpg
+    - assets/seasons/monsoon/7.jpg
+    - assets/seasons/monsoon/8.jpg
+    - assets/seasons/monsoon/9.jpg
+    - assets/seasons/monsoon/10.jpg
+    - assets/seasons/monsoon/11.jpg
+    - assets/seasons/monsoon/12.jpg
+    - assets/seasons/monsoon/13.jpg
+    - assets/seasons/monsoon/14.jpg
+    - assets/seasons/monsoon/15.jpg
+    - assets/seasons/monsoon/16.jpg
+    - assets/seasons/monsoon/17.jpg
+    - assets/seasons/monsoon/18.jpg
+    - assets/seasons/Autumn/fall.jpg
+    - assets/seasons/Autumn/autumn.jpg
+    - assets/seasons/Autumn/1.jpg
+    - assets/seasons/Autumn/2.jpg
+    - assets/seasons/Autumn/3.jpg
+    - assets/seasons/Autumn/4.jpg
+    - assets/seasons/Autumn/5.jpg
+    - assets/seasons/Autumn/6.jpg
+    - assets/seasons/Autumn/7.jpg
+    - assets/seasons/rainy/1.jpg
+    - assets/seasons/rainy/2.jpg
+    - assets/seasons/rainy/3.jpg
+    - assets/seasons/rainy/4.jpg
+    - assets/seasons/rainy/5.jpg
+    - assets/seasons/rainy/6.jpg
+    - assets/seasons/summer/1.png
+    - assets/seasons/summer/7.png
+    - assets/seasons/summer/2.jpg
+    - assets/seasons/summer/3.jpg
+    - assets/seasons/summer/4.jpg
+    - assets/seasons/summer/5.jpg
+    - assets/seasons/summer/6.jpg
+    - assets/dogvac.jpg
+
+    - assets/seasons/rainy/7.png
+    - assets/seasons/monsoon/main.jpeg
+    - assets/seasons/monsoon/monsoonmain.png
+    - assets/heatpics/
+    - assets/heatpics/care/
+    - assets/heatdiaper.jpeg
+    - assets/heatpics/1.png
+    - assets/Helpline/tamil.png
+    - assets/Helpline/TN.png
+    - assets/todolist.png
+    - assets/vac.jpeg
+    - assets/vaccine.jpg
+    - assets/de.jpg
+    - assets/GeneralCare/bathing/
+    - assets/GeneralCare/brushing/
+    - assets/GeneralCare/massaging/
+    - assets/GeneralCare/trimming/
+    - assets/tracker.jpg
+
+    
+
+   
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
